@@ -41,7 +41,7 @@ class UpdateConfigAction : public Action<Ts...> {
   TEMPLATABLE_VALUE(float, vol_range_max)
   TEMPLATABLE_VALUE(uint8_t, channel)
   
-  void play(Ts... x) override { 
+  void play(const Ts &...x) override { 
     if( this->amp_level_.has_value() ){
       this->parent_->set_amp_level(this->amp_level_.value(x...));
     }
