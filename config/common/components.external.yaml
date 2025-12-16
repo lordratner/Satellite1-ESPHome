@@ -1,5 +1,5 @@
 substitutions:
-  ext_comp_repo_ref: f69f3ab2ed59f10684b3fadfcacaf7eea85987c1
+  ext_comp_repo_ref: patch-1
 
 external_components:
   - source:
