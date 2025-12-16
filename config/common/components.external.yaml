@@ -1,5 +1,5 @@
 substitutions:
-  ext_comp_repo_ref: develop
+  ext_comp_repo_ref: patch-1
 
 external_components:
   - source:
