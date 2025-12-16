@@ -157,3 +157,7 @@ async def to_code(config):
 
     var = cg.new_Pvariable(config[CONF_ID])
     await cg.register_component(var, config)
+
+def is_guaranteed():
+    # Added to fix compatibility with ESPHome 2025.11+
+    return True
