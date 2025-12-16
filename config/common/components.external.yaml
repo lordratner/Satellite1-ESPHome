@@ -1,5 +1,5 @@
 substitutions:
-  ext_comp_repo_ref: ad1ccdfabeb146e6bf32723049c79d95dfb33ef5
+  ext_comp_repo_ref: a697711361129ecb00431bbdc3367325a352694c
 
 external_components:
   - source:
